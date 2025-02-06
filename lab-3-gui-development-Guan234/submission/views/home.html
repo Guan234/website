@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Optional External CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css">
+
+    <style>
+        /* Inline styles for simplicity */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 1rem;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        nav .icon {
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
+        main {
+            flex-grow: 1;
+            display: flex;
+            padding: 2rem;
+            justify-content: space-between;
+            align-items: center;
+        }
+        main img {
+            max-width: 800px;
+            border-radius: 10px;
+        }
+        .description-box {
+            max-width: 500px;
+            margin-left: 2rem;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        footer a {
+            color: white;
+            margin: 0 0.5rem;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <span class="navbar-text">
+            <i class="flag-icon flag-icon-ve"></i>
+        </span>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="hobbies.html">Hobbies</a></li>
+            <li><a href="projects.html">Projects</a></li>
+        </ul>
+        <i class="flag flag-venezuela"></i>
+    </nav>
+    <!-- Main Content -->
+    <main>
+        <img src="../resources/img/C1A06A1B-0AF4-4085-BF9A-55CF25232BD7.JPG" alt="My Picture"> <!-- Replace with your image path -->
+        <div class="description-box">
+            <p>Hello, my name is Juan Cedeno, I am a Junior at CU Boulder and I like videogames and coding</p>
+            <a href="resume.html">Here is my Resume</a>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>Connect with me:</p>
+        <a href="https://twitter.com/yourprofile">Twitter</a>
+        <a href="https://linkedin.com/in/yourprofile">LinkedIn</a>
+    </footer>
+</body>
+</html>
+
